@@ -1,0 +1,14 @@
+<!--pages/share/share.wxml-->
+<text>pages/share/share.wxml</text>
+
+<view class='container'>
+  <!-- <view wx:key="idx" wx:for="{{imgalist}}" wx:for-item="image" class="previewimg">
+		<image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+	</view> -->
+  <view>
+    <button type='default' bindtap='share'>share</button>
+  </view>
+  <view class="canvas-box">
+    <canvas canvas-id="myCanvas" style="width:100%;height:{{systemInfo.windowHeight}}px;"></canvas>
+  </view>
+</view>
